@@ -1,11 +1,11 @@
 # SACH CODE
-# If any EOF error occurs this program will take n=8 as default
+# If any EOF error occurs this program will take n=12 as default
 x = 0
 y = 0
 try:
     n = int(input("n: "))
 except EOFError:
-    n = 8
+    n = 12
 for i in range(1, n):
         if i % 4 == 1:
             x = x + (i * 10)
