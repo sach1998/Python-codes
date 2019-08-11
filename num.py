@@ -6,7 +6,7 @@ try:
     n = int(input("n: "))
 except EOFError:
     n = 12
-for i in range(1, n):
+for i in range(1, n+1):
         if i % 4 == 1:
             x = x + (i * 10)
         if i % 4 == 2:
